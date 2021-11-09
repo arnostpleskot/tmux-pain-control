@@ -1,4 +1,4 @@
-# Tmux Pain Control
+# Tmux Pain Control with Colemak bindings
 
 Tmux plugin for controlling panes. Adds standard pane navigation bindings.
 
@@ -18,19 +18,19 @@ Notice most of the bindings emulate vim cursor movements.
 
 **Navigation**
 
-- `prefix + h` and `prefix + C-h`<br/>
+- `prefix + m` and `prefix + C-m`<br/>
   select pane on the left
-- `prefix + j` and `prefix + C-j`<br/>
+- `prefix + n` and `prefix + C-n`<br/>
   select pane below the current one
-- `prefix + k` and `prefix + C-k`<br/>
+- `prefix + e` and `prefix + C-e`<br/>
   select pane above
-- `prefix + l` and `prefix + C-l`<br/>
+- `prefix + i` and `prefix + C-i`<br/>
   select pane on the right
 
 <br/>
 
 **Note**: This overrides tmux's default binding for toggling between last
-active windows, `prefix + l`.
+active windows, `prefix + i`.
 [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible) gives you
 a better binding for that, `prefix + a` (if your prefix is `C-a`).
 
@@ -40,13 +40,13 @@ a better binding for that, `prefix + a` (if your prefix is `C-a`).
 
 **Resizing panes**
 
-- `prefix + shift + h`<br/>
+- `prefix + shift + m`<br/>
   resize current pane 5 cells to the left
-- `prefix + shift + j`<br/>
+- `prefix + shift + n`<br/>
   resize 5 cells in the down direction
-- `prefix + shift + k`<br/>
+- `prefix + shift + e`<br/>
   resize 5 cells in the up direction
-- `prefix + shift + l`<br/>
+- `prefix + shift + i`<br/>
   resize 5 cells to the right
 
 These mappings are `repeatable`.
