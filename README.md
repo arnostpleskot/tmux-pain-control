@@ -40,13 +40,13 @@ a better binding for that, `prefix + a` (if your prefix is `C-a`).
 
 **Resizing panes**
 
-- `prefix + shift + m`<br/>
+- `prefix + alt + m`<br/>
   resize current pane 5 cells to the left
-- `prefix + shift + n`<br/>
+- `prefix + alt + n`<br/>
   resize 5 cells in the down direction
-- `prefix + shift + e`<br/>
+- `prefix + alt + e`<br/>
   resize 5 cells in the up direction
-- `prefix + shift + i`<br/>
+- `prefix + alt + i`<br/>
   resize 5 cells to the right
 
 These mappings are `repeatable`.
@@ -82,7 +82,7 @@ Newly created pane always has the same path as the original pane.
 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
-    set -g @plugin 'tmux-plugins/tmux-pain-control'
+    set -g @plugin 'arnostpleskot/tmux-pain-control'
 
 Hit `prefix + I` to fetch the plugin and source it.
 
@@ -92,7 +92,7 @@ You should now have all `pain-control` bindings defined.
 
 Clone the repo:
 
-    $ git clone https://github.com/tmux-plugins/tmux-pain-control ~/clone/path
+    $ git clone https://github.com/arnostpleskot/tmux-pain-control ~/clone/path
 
 Add this line to the bottom of `.tmux.conf`:
 
